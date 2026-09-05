@@ -1,16 +1,83 @@
-# React + Vite
+# 🌤️ WeatherHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WeatherHub is a simple and responsive weather web application built with React.js. It allows users to search for a city and view real-time weather information including temperature, humidity, feels-like temperature, and weather conditions.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🌍 Search weather by city
+* 🌡️ Current temperature
+* 💧 Humidity information
+* 🤗 Feels-like temperature
+* 🌦️ Weather condition
+* 📉 Minimum temperature
+* 📈 Maximum temperature
+* 🖼️ Dynamic weather images
+* 📱 Responsive user interface
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React.js
+* **UI Library:** Material UI (MUI)
+* **Styling:** CSS
+* **API:** Weather API
+* **Package Manager:** npm
+* **Version Control:** Git & GitHub
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Aaliya-TheCoder/WeatherHub.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd WeatherHub
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will run on your local development server.
+
+## 📁 Project Structure
+
+```text
+WeatherHub/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## 🎯 Purpose
+
+This project was created to practice React.js concepts such as components, props, state management, event handling, API integration, and dynamic UI rendering.
+
+## 👩‍💻 Author
+
+**Aaliya Parveen**
+
+GitHub: https://github.com/Aaliya-TheCoder
+
+---
+
+⭐ If you like this project, consider giving it a star!
